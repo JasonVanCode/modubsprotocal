@@ -2,14 +2,14 @@
 
 modbus write in pure go, support rtu,ascii,tcp master library,also support tcp slave.
 
-[![GoDoc](https://godoc.org/github.com/things-go/go-modbus?status.svg)](https://godoc.org/github.com/things-go/go-modbus)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/things-go/go-modbus/v2?tab=doc)
+[![GoDoc](https://godoc.org/github.com/JasonVanCode/modubsprotocal?status.svg)](https://godoc.org/github.com/JasonVanCode/modubsprotocal)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/JasonVanCode/modubsprotocal/v2?tab=doc)
 [![codecov](https://codecov.io/gh/things-go/go-modbus/branch/master/graph/badge.svg)](https://codecov.io/gh/things-go/go-modbus)
-![Action Status](https://github.com/things-go/go-modbus/workflows/Go/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/things-go/go-modbus)](https://goreportcard.com/report/github.com/things-go/go-modbus)
+![Action Status](https://github.com/JasonVanCode/modubsprotocal/workflows/Go/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/JasonVanCode/modubsprotocal)](https://goreportcard.com/report/github.com/JasonVanCode/modubsprotocal)
 [![Licence](https://img.shields.io/github/license/things-go/go-modbus)](https://raw.githubusercontent.com/things-go/go-modbus/master/LICENSE)
-[![Tag](https://img.shields.io/github/v/tag/things-go/go-modbus)](https://github.com/things-go/go-modbus/tags)
-[![Sourcegraph](https://sourcegraph.com/github.com/things-go/go-modbus/-/badge.svg)](https://sourcegraph.com/github.com/things-go/go-modbus?badge)
+[![Tag](https://img.shields.io/github/v/tag/things-go/go-modbus)](https://github.com/JasonVanCode/modubsprotocal/tags)
+[![Sourcegraph](https://sourcegraph.com/github.com/JasonVanCode/modubsprotocal/-/badge.svg)](https://sourcegraph.com/github.com/JasonVanCode/modubsprotocal?badge)
 
 
 ### Supported formats
@@ -29,12 +29,12 @@ modbus write in pure go, support rtu,ascii,tcp master library,also support tcp s
 
 Use go get.
 ```bash
-    go get github.com/things-go/go-modbus
+    go get github.com/JasonVanCode/modubsprotocal
 ```
 
 Then import the package into your own code.
 ```bash
-    import modbus "github.com/things-go/go-modbus"
+    import modbus "github.com/JasonVanCode/modubsprotocal"
 ```
 
 ### Supported functions
@@ -72,7 +72,7 @@ import (
 
 	"github.com/goburrow/serial"
 
-	modbus "github.com/things-go/go-modbus"
+	modbus "github.com/JasonVanCode/modubsprotocal"
 )
 
 func main() {
@@ -119,7 +119,7 @@ import (
 	"fmt"
 	"time"
 
-	modbus "github.com/things-go/go-modbus"
+	modbus "github.com/JasonVanCode/modubsprotocal"
 )
 
 func main() {
@@ -153,7 +153,7 @@ modbus TCP server see [example](_examples/server_tcp)
 package main
 
 import (
-	modbus "github.com/things-go/go-modbus"
+	modbus "github.com/JasonVanCode/modubsprotocal"
 )
 
 func main() {
@@ -187,19 +187,4 @@ func main() {
 - [Modbus Specifications and Implementation Guides](http://www.modbus.org/specs.php)
 - [goburrow](https://github.com/goburrow/modbus)
 
-### JetBrains OS licenses
-go-modbus had been being developed with GoLand under the free JetBrains Open Source license(s) granted by JetBrains s.r.o., hence I would like to express my thanks here.
 
-<a href="https://www.jetbrains.com/?from=things-go/go-modbus" target="_blank"><img src="https://github.com/thinkgos/thinkgos/blob/master/asserts/jetbrains-variant-4.svg" width="200" align="middle"/></a>
-
-### Donation
-
-if package help you a lot,you can support us by:
-
-**Alipay**
-
-![alipay](https://github.com/thinkgos/thinkgos/blob/master/asserts/alipay.jpg)
-
-**WeChat Pay**
-
-![wxpay](https://github.com/thinkgos/thinkgos/blob/master/asserts/wxpay.jpg)
