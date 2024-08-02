@@ -2,15 +2,6 @@
 
 modbus write in pure go, support rtu,ascii,tcp master library,also support tcp slave.
 
-[![GoDoc](https://godoc.org/github.com/JasonVanCode/modubsprotocal?status.svg)](https://godoc.org/github.com/JasonVanCode/modubsprotocal)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/JasonVanCode/modubsprotocal/v2?tab=doc)
-[![codecov](https://codecov.io/gh/things-go/go-modbus/branch/master/graph/badge.svg)](https://codecov.io/gh/things-go/go-modbus)
-![Action Status](https://github.com/JasonVanCode/modubsprotocal/workflows/Go/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/JasonVanCode/modubsprotocal)](https://goreportcard.com/report/github.com/JasonVanCode/modubsprotocal)
-[![Licence](https://img.shields.io/github/license/things-go/go-modbus)](https://raw.githubusercontent.com/things-go/go-modbus/master/LICENSE)
-[![Tag](https://img.shields.io/github/v/tag/things-go/go-modbus)](https://github.com/JasonVanCode/modubsprotocal/tags)
-[![Sourcegraph](https://sourcegraph.com/github.com/JasonVanCode/modubsprotocal/-/badge.svg)](https://sourcegraph.com/github.com/JasonVanCode/modubsprotocal?badge)
-
 
 ### Supported formats
 
